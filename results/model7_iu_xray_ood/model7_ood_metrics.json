@@ -1,0 +1,23 @@
+{
+  "Dataset": "IU X-Ray (OOD Zero-Shot)",
+  "N_Samples": 3666,
+  "Sentence_BLEU-1": 0.3811887822766132,
+  "Sentence_BLEU-2": 0.26336409010791795,
+  "Sentence_BLEU-3": 0.1950699239284277,
+  "Sentence_BLEU-4": 0.12695996100440263,
+  "Corpus_BLEU-1": 0.24868498104158537,
+  "Corpus_BLEU-4": 0.058138643297722004,
+  "ROUGE-1": 0.38894850974443246,
+  "ROUGE-2": 0.2666140527759315,
+  "ROUGE-L": 0.3832506412685531,
+  "Clinical_BERTScore_F1": 0.0,
+  "Clinical_BERTScore_Recall": 0.0,
+  "Semantic_Cosine_Similarity": 0.5858506560325623,
+  "Distinct-1": 0.9804268176648433,
+  "Distinct-2": 0.9992379948485082,
+  "Clinical_Macro_F1_All14": 0.29562436023578076,
+  "Clinical_Macro_F1_Core10": 0.3919781311757306,
+  "Clinical_Micro_F1": 0.6511524822695035,
+  "Clinical_Micro_Recall": 0.6861279775805699,
+  "Evaluation_Duration_Minutes": 117.90332929293315
+}

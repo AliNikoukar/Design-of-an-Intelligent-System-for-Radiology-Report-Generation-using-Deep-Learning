@@ -1,0 +1,15 @@
+\begin{table*}[htbp]
+\centering
+\caption{Cross-Domain Zero-Shot Generalization: Model 7 on Indiana University Chest X-Ray (N = 3,666)}
+\label{tab:ood_generalization}
+\resizebox{\textwidth}{!}{
+\begin{tabular}{lccccccccc}
+\hline
+\textbf{Evaluation Cohort} & \textbf{BLEU-1} & \textbf{BLEU-4} & \textbf{ROUGE-1} & \textbf{ROUGE-L} & \textbf{BERTScore F1} & \textbf{Distinct-2} & \textbf{Macro F1 (Core10)} & \textbf{Micro F1} & \textbf{Micro Recall} \
+\hline
+MIMIC-CXR (In-Distribution, N=6,388) & 0.3046 & \textbf{0.1604} & 0.3382 & 0.3154 & 0.6562 & 0.9952 & \textbf{0.4505} & 0.5210 & 0.5547 \
+\textbf{IU X-Ray (Zero-Shot OOD, N=3,666)} & \textbf{0.3812} & 0.1270 & \textbf{0.3889} & \textbf{0.3833} & \textbf{0.6844} & \textbf{0.9992} & 0.3920 & \textbf{0.6512} & \textbf{0.6861} \
+\hline
+\end{tabular}
+}
+\end{table*}

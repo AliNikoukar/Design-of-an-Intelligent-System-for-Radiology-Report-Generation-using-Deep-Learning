@@ -1,0 +1,76 @@
+# ==============================================================================
+# Byte-compiled / optimized / DLL files
+# ==============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Environments
+.env
+.venv
+env/
+venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# macOS system files
+.DS_Store
+.DS_Store?
+._*
+
+# ==============================================================================
+# Clinical Datasets & HIPAA Protected Raw Files
+# ==============================================================================
+Mimic-cxr/
+IU-Xray/
+*.dcm
+*.zip
+*.tar.gz
+*.gz
+*.parquet
+*.h5
+*.dat
+*.memmap
+
+# ==============================================================================
+# Model Weights (>100MB blocked by GitHub)
+# ==============================================================================
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.ckpt
+*.onnx
+
+# ==============================================================================
+# Local Workspaces, Persian Documents & Internal Scaffolding (Preserved Locally)
+# ==============================================================================
+پایان نامه/
+پرزنتیشن/
+بسته_کتابخانه_دانشگاه/
+note books/
+results_finalboss/
+audit_scripts/
+audit_results/
+scratch/
+evalOut/
+*.docx
+*.bak*
+
+# Internal reports and audit working files
+FINAL_MASTER_AUDIT.md
+FINAL_MASTER_AUDIT_REPORT.md
+SLOW_FORENSIC_AUDIT.md
+final_readiness_report.md
+presentation_plan.md
+MASTER_ARCHITECTURES_CHRONOLOGY.md
+proposal_extracted.txt

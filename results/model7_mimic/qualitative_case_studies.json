@@ -1,0 +1,90 @@
+{
+  "Top_Perfect_Matches": [
+    {
+      "study_id": 55557761,
+      "dicom_id": "210cd491-95e4b2af-6f85efca-814f5268-4ad0d2bb",
+      "ground_truth": "No acute cardiopulmonary process.",
+      "prediction": "No acute cardiopulmonary process.",
+      "bleu1": 1.0,
+      "bleu4": 1.0,
+      "rougeL": 1.0
+    },
+    {
+      "study_id": 55557761,
+      "dicom_id": "39e3d8cb-dccd8d78-6631be49-61da4b22-d7b04f03",
+      "ground_truth": "No acute cardiopulmonary process.",
+      "prediction": "No acute cardiopulmonary process.",
+      "bleu1": 1.0,
+      "bleu4": 1.0,
+      "rougeL": 1.0
+    },
+    {
+      "study_id": 53719691,
+      "dicom_id": "bbedc806-4228a38a-e077c922-bcb355a7-f7a6d785",
+      "ground_truth": "No acute cardiopulmonary process.",
+      "prediction": "No acute cardiopulmonary process.",
+      "bleu1": 1.0,
+      "bleu4": 1.0,
+      "rougeL": 1.0
+    }
+  ],
+  "Clinical_Discrepancies": [
+    {
+      "study_id": 54394630,
+      "ground_truth": "Mild to moderate left pleural effusion size as is adjacent left basal atelectasis. No evidence of pneumothorax.",
+      "prediction": "1. Mild pulmonary vascular congestion. 2. Patchy opacities in the right mid and lower lung likely reflect atelectasis, although pneumonia cannot be excluded in the appropriate clinical setting. 3. Small bilateral pleural effusions.",
+      "gt_active": [
+        "Atelectasis",
+        "Pleural Effusion"
+      ],
+      "pred_active": [
+        "Atelectasis",
+        "Edema",
+        "Lung Opacity",
+        "Pleural Effusion"
+      ],
+      "bleu4": 0.0073
+    },
+    {
+      "study_id": 54850191,
+      "ground_truth": "Ap chest : large scale consolidation in both lower lungs developed between _ _, most likely severe pneumonia or pulmonary hemorrhage. Aspiration is most likely scenario. Mild - to moderate cardiomegaly unchanged. Pulmonary vascular congestion is probably a function of volume resuscitation. Small left pleural effusion is larger, small right pleural effusion, presumed. No pneumothorax.",
+      "prediction": "1. Moderate cardiomegaly and pulmonary edema. 2. Retrocardiac consolidation, likely a combination of atelectasis and effusion. In the appropriate clinical setting, superimposed pneumonia would be difficult to exclude. 3. Patchy opacity in the right upper lobe, which could represent a second focus of infection. 4. Small bilateral pleural effusions.",
+      "gt_active": [
+        "Cardiomegaly",
+        "Consolidation",
+        "Edema",
+        "Pleural Effusion",
+        "Pneumonia"
+      ],
+      "pred_active": [
+        "Atelectasis",
+        "Cardiomegaly",
+        "Consolidation",
+        "Edema",
+        "Lung Opacity",
+        "Pleural Effusion",
+        "Pneumonia"
+      ],
+      "bleu4": 0.0109
+    },
+    {
+      "study_id": 55602594,
+      "ground_truth": "There is opacification within the left lower lobe and a somewhat lesser extent at the right lung base. These findings would be consistent with aspiration or pneumonia. The heart remains enlarged. No pulmonary edema. Probable small layering left effusion. No evidence of pneumothorax. Marked thoracolumbar curvature.",
+      "prediction": "1. Moderate cardiomegaly with mild pulmonary vascular congestion. 2. Retrocardiac consolidation, likely atelectasis, but could represent pneumonia in the appropriate clinical setting. 3. Small left pleural effusion.",
+      "gt_active": [
+        "Pleural Effusion",
+        "Pneumonia",
+        "Support Devices"
+      ],
+      "pred_active": [
+        "Atelectasis",
+        "Cardiomegaly",
+        "Consolidation",
+        "Edema",
+        "Pleural Effusion",
+        "Pneumonia"
+      ],
+      "bleu4": 0.0096
+    }
+  ]
+}

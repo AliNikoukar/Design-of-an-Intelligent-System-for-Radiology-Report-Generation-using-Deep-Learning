@@ -1,0 +1,20 @@
+{
+  "Sentence BLEU-1": 0.3046135091030339,
+  "Sentence BLEU-2": 0.22587888013642604,
+  "Sentence BLEU-3": 0.18334671268419162,
+  "Sentence BLEU-4": 0.16044190410588732,
+  "Corpus BLEU-1 (NIST)": 0.19170309126059198,
+  "Corpus BLEU-4 (NIST)": 0.05464607731120687,
+  "ROUGE-1": 0.3381774999354252,
+  "ROUGE-2": 0.21198867659455603,
+  "ROUGE-L": 0.3154222138489241,
+  "Distinct-1": 0.9367944244959158,
+  "Distinct-2": 0.9951852067789476,
+  "Clinical_Macro_F1_All14": 0.3394931452654108,
+  "Clinical_Macro_F1_Core10": 0.45049480247438967,
+  "Clinical_Micro_F1": 0.5209591021171669,
+  "Clinical_Micro_Precision": 0.4910635569447784,
+  "Clinical_Micro_Recall": 0.5547306473517428,
+  "Evaluated_Checkpoint": "/kaggle/input/notebooks/kimiasafaralian/mimic-cxr-model-7-train2/model7_qwen_best.pt",
+  "Evaluation_Duration_Minutes": 359.43025624752045
+}
