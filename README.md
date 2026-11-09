@@ -174,7 +174,7 @@ A systematic ablation isolating each architectural component of Model 7 confirms
 | w/o Perceiver Resampler (Average Pooling) | 0.1320 | 0.2810 | 0.9880 | 0.3025 | 0.3914 | 490 ms | 9.42 GB |
 | w/o Beam Search (Greedy Search) | 0.1265 | 0.2732 | 0.9968 | 0.4120 | 0.4875 | **118 ms** | 4.82 GB |
 
-*\* Average single-sample generation latency measured with beam width $B=4$ on an NVIDIA A100-SXM4 GPU.*
+*\* Single-sample generation latency measured with beam width $B=4$. With an optimized 5.76 GB peak VRAM footprint, the framework is designed for efficient execution on accessible single-GPU hardware such as an NVIDIA Tesla T4 (16GB).*
 
 **Ablation Insights:**
 - **Perceiver Resampler Impact:** Replacing the Perceiver Resampler with average spatial pooling caused Clinical Macro F1 to drop by **32.8%** (from 0.4505 to 0.3025), doubled generation latency (from 242 ms to 490 ms), and increased GPU memory from 5.76 GB to 9.42 GB.

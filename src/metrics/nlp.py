@@ -82,7 +82,7 @@ def compute_nlp_metrics(
     corpus_d1 = len(set(all_unigrams)) / max(len(all_unigrams), 1)
     corpus_d2 = len(set(all_bigrams)) / max(len(all_bigrams), 1)
 
-    return {
+    results = {
         "BLEU-1": float(np.mean(b1_list)),
         "BLEU-2": float(np.mean(b2_list)),
         "BLEU-3": float(np.mean(b3_list)),
@@ -94,3 +94,16 @@ def compute_nlp_metrics(
         "Corpus_Distinct_2": float(corpus_d2),
         "Mean_Generated_Length": float(np.mean(lengths_list)),
     }
+
+    # Standard lowercase aliases for testing and programmatic access
+    results.update({
+        "bleu_1": results["BLEU-1"],
+        "bleu_2": results["BLEU-2"],
+        "bleu_3": results["BLEU-3"],
+        "bleu_4": results["BLEU-4"],
+        "rouge_l": results["ROUGE-L"],
+        "distinct_1": results["Sample_Distinct_1"],
+        "distinct_2": results["Sample_Distinct_2"],
+    })
+
+    return results
